@@ -1,3 +1,4 @@
+# To jest zadanie 4
 import math
 def obwod_kola (r):
     return 2*math.pi*r
