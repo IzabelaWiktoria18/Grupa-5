@@ -7,4 +7,4 @@ def obwod_kwadratu (a):
 def obwod_prostokata (a, b):
     return 2*a+2*b
 def obwod_trojkata (a, b, c):
-    return a+b+2*c 
+    return a+b+c 
