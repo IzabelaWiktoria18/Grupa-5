@@ -61,7 +61,7 @@ def mins():
         try:
             user_time = input('Podaj ulamek godziny do obliczenia na minuty: \n')
             user_time_corrected = value_validator(user_time)
-            result = round(user_time_corrected * 60)
+            result = round(user_time_corrected / 60)
             return result
         except ValueError as e:
             print(e)
