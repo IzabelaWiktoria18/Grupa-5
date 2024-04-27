@@ -85,7 +85,7 @@ def distance_menu():
             print(e)
 
 def divide_calc(num_1_corrected, num_2_corrected): #funk do unit testow
-    return round(num_1_corrected*num_2_corrected, 2)
+    return round(num_1_corrected/num_2_corrected, 2) #poprawione mnozenie na dzielenie
 
 def divide_menu():
     while True:
