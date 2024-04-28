@@ -5,9 +5,9 @@ def trojkat(a, H):
 def kwadrat(a):
     kwadrat = a * a
     return kwadrat
-#poprawiono wzór na pole prostokąta i nazwę
+
 def prostkat(a, b):
-    p = a * b
+    p = a ** b
     return p
 
 def romb(a, b, H):
