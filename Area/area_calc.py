@@ -1,5 +1,5 @@
 def trojkat(a, H):
-    POLE = 1/3 * a * H
+    POLE = 1/2 * a * H #Poprawiony wzór na pole trójkąta
     return POLE
 
 def kwadrat(a):
@@ -7,7 +7,7 @@ def kwadrat(a):
     return kwadrat
 
 def prostkat(a, b):
-    p = a ** b
+    p = a * b #Poprawiony wzór na pole prostokąta
     return p
 
 def romb(a, b, H):
